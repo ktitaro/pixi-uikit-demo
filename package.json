@@ -1,0 +1,8 @@
+{
+    "name": "pixi-uikit-demo",
+    "private": true,
+    "workspaces": [
+        "game-ui",
+        "game-app"
+    ]
+}

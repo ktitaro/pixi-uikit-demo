@@ -1,0 +1,29 @@
+{
+  "name": "game-ui",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "storybook dev --ci -p 3000",
+    "watch": "vite build --watch",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "@pixi/mesh-extras": "^7.4.0",
+    "@pixi/ui": "^0.10.5",
+    "normalize.css": "^8.0.1",
+    "pixi.js": "^8.0.1"
+  },
+  "devDependencies": {
+    "@pixi/storybook-renderer": "^0.1.0",
+    "@pixi/storybook-webpack5": "^0.1.0",
+    "@storybook/addon-essentials": "^7.6.17",
+    "@storybook/blocks": "^7.6.17",
+    "storybook": "^7.6.17",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.4",
+    "vite-plugin-dts": "^3.7.3"
+  }
+}
